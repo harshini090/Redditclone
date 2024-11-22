@@ -1,0 +1,25 @@
+.nav-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 2rem;
+}
+
+.nav-item.active {
+    background-color: #e6f2ff;
+    border-left: 4px solid #3182ce;
+}
+
+.nav-item:hover {
+    background-color: #f0f0f0;
+}
+
+.nav-icon {
+    margin-right: 10px;
+}
+/* Add to all CSS files */
+* {
+    transition: all 0.3s ease;
+  }

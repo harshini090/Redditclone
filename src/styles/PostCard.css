@@ -1,0 +1,28 @@
+.post-card {
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 25px;
+    font-size: 1.6rem;
+    width: 100%; /* Stretch to fit content area */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-card h2 {
+    color: #3182ce;
+    margin-bottom: 10px;
+    font-size: 2.0rem;
+  }
+  .post-actions span {
+    margin-right: 15px;
+    cursor: pointer; /* Adds a pointer cursor for upvotes and comments */
+}
+
+.post-actions span:hover {
+    color: #3182ce; /* Optional: Add hover effect for better UX */
+}
+
+  /* Add to all CSS files */
+* {
+    transition: all 0.3s ease;
+  }
